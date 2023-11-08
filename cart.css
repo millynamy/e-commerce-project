@@ -1,0 +1,47 @@
+/* Reset some default styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #2d39a5; /* Change this to the color of your choice */
+}
+
+/* Styles for the container */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #291b1b;
+}
+
+/* Styles for the shopping cart heading */
+h2 {
+    text-align: center;
+}
+
+/* Styles for the cart items list */
+#cart-items {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* Styles for the cart item */
+#cart-items li {
+    margin-bottom: 10px;
+}
+
+/* Styles for the proceed to checkout button */
+button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
