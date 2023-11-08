@@ -37,14 +37,14 @@ function signUp(e) {
     const newPassword = e.target["new-password"].value;
 
     console.log("Signing up with email: ", newEmail, " and password: ", newPassword);
-    // Example of storing the user data in an array (for demonstration purposes)
+    
     let users = JSON.parse(localStorage.getItem("users")) || [];
 
     // Check if the email is already taken
     const isEmailTaken = users.some((user) => user.email === newEmail);
 
     if (isEmailTaken) {
-        // Replace with your own logic for a duplicate email
+
         console.log("This email is already taken. Please use a different email.");
         alert("This email is already taken. Please use a different email.");
     } else {
@@ -52,7 +52,7 @@ function signUp(e) {
         users.push({ email: newEmail, password: newPassword });
         localStorage.setItem("users", JSON.stringify(users));
 
-        // Replace with your own logic for a successful sign-up
+        
         console.log("Sign-up successful for user:", newEmail);
         alert("Sign-up successful! You can now sign in with your new account.");
     }

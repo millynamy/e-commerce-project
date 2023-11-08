@@ -22,3 +22,14 @@ h2 {
     border: 1px solid #ddd;
     border-radius: 5px;
 }
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.product h3 {
+    margin: 0;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
